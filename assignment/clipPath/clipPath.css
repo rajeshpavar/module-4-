@@ -1,0 +1,157 @@
+*{
+    margin: 0;padding: 0;
+}
+
+
+.conatainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Put\ Your\ Image\(1\).png);
+    background-size: cover;
+    clip-path: polygon(48% 0, 100% 0, 100% 75%, 51% 100%, 0 77%, 0 0);
+    z-index: -5;
+}
+
+
+
+.some{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.702;
+    clip-path: polygon(48% 0, 100% 0, 100% 75%, 51% 100%, 0 77%, 0 0);
+    z-index: -1;
+}
+
+.nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.links :first-child{
+    text-decoration: none;
+    font-size: 14px;
+color: #e74c3c;
+font-weight: 700;
+}
+
+.nav a{
+  
+        text-decoration: none;
+        font-size: 14px;
+    color: white;
+    font-weight: 900;
+    margin-right: 15px;
+    
+}
+
+.logo {
+    color: black;
+  }
+  .L {
+    border: 2px solid white;
+    padding: 4px;
+    background-color: white;
+    color: gray;
+    margin-left: 100px;
+  }
+  .ogo {
+    border: 2px solid white;
+    padding: 4px;
+    color: white;
+  }
+
+
+.center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.center h3{
+    font-size: 24px;
+letter-spacing: 1px;
+color: #f4f5f9;
+font-weight: 400;
+}
+
+.center h1{
+    font-size: 72px;
+letter-spacing: 7px;
+color: #f4f5f9;
+font-weight: 700;
+
+text-align: center;
+}
+
+.center p{
+    font-size: 14px;
+line-height: 24px;
+color: #cbc6c0;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+margin-top: 20px;
+}
+
+.btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    padding: 8px 16px;
+}
+
+.first-btn{
+    border-radius: 3px;
+    filter: drop-shadow(-1.732px 1px 2.5px rgba(0,0,0,0.25));
+    background-color: #e74c3c;
+    outline: none;
+    border: none;
+    font-size: 14px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+margin-right: 10px;
+}
+
+.last-btn{
+    font-size: 14px;
+letter-spacing: 0px;
+background-color: transparent;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+border: 1px solid white;
+}
+
+.down{
+    position: absolute;
+    bottom: 0;
+    background-image: url(./Forma\ 1.png);
+    background-color: white;
+    height: 35px;
+    width: 27px;
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    left: 678px;
+
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.left{
+   background-color:  #202020;
+   width: 50%;
+   height: 100vh;
+   
+   
+}
+.heading{
+    padding-right: 3px;
+}
+
+span{
+    height: 23px;
+    width: 3px;
+    border:2px solid red;
+    display: inline-block;
+   
+}
+
+.computer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+left: 570px;
+top: 240px;
+background-image: url(./Forma\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.print{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+left: 570px;
+top: 380px;
+background-image: url(./Forma\ 1\(1\).png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+left: 570px;
+top: 500px;
+background-image: url(./Forma\ 1\(2\).png);
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+h3{
+    color: red;
+    font-size: 18px;
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: right;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+   margin: 120px 60px;
+    align-items: flex-end;
+}
+
+.right{
+    background-image: url(./Put\ Your\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 65%;
+}
+
+

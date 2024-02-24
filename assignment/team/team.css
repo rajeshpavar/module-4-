@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.container{
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.538) ), url(./Put\ Your\ Image\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -5;
+}
+
+
+.child-container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+    opacity: 0.749;
+    z-index: -1;
+}
+
+.heading{
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+ .titel{
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    
+ 
+}
+
+.sub-titel{
+    font-size: 14px;
+line-height: 40px;
+color: #f4f5f9;
+font-family: "Open Sans";
+text-align: center;
+letter-spacing: 2px;
+}
+
+.arrow{
+    width: 205px;
+    height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   margin: 0 auto;
+}
+
+.left-arrow{
+    border: 1px solid white;
+    width: 85px;
+}
+
+.right-arrow{
+    border: 1px solid white;
+    width: 85px;
+}
+
+.round{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    background-color: #e74c3c;
+}
+
+.down{
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.down-container{
+  position: absolute;
+width: 100%;
+  height: 270px;
+
+
+ 
+   
+}
+
+.text{
+    position: absolute;
+    bottom: 50px;
+}
+
+.text h3{
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.text p{
+    font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  margin-left: 500px;
+}
+
+
+.one{
+    background-image: url(./Ellipse\ 1\(2\).png);
+    position: absolute;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 180px;
+    left: 220px;
+    top: 130px;
+    border: 2px solid red;
+    filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+}
+
+
+.line{
+    position: absolute;
+    opacity: 0.7;
+  width: 0.3px;
+  height: 95px;
+  background-color: #45576e;
+  border: 1px solid #ffffff;
+  top: 100px;
+  left: 537px;
+ 
+ 
+}
+.two{
+
+
+
+    background-image: url(./Ellipse\ 1\(1\).png);
+    position: absolute;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    left: 508px;
+    top: 45px;
+    border: 2px solid red;
+    filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+}
+
+.three{
+    
+    background-image: url(./Ellipse\ 1\(3\).png);
+    position: absolute;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 211px;
+    left: 660px;
+    filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+    border: 2px solid red;
+}
+
+
+
+.four{
+   
+    
+        background-image: url(./Ellipse\ 1.png);
+        position: absolute;
+        background-size: cover;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        bottom: 165px;
+        left: 820px;
+        filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+        border: 2px solid red;
+   
+}
+.five{
+    
+    background-image: url(./Ellipse\ 1\(4\).png);
+    position: absolute;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    bottom: 140px;
+  right: 280px;
+  filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+    border: 2px solid red;
+}
